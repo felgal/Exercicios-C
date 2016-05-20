@@ -1,0 +1,30 @@
+//definindo funções secundarias
+int* junta (int *vet1, int n1, int *vet2, int n2, int *n3);
+void printa(int *vet3);
+
+//função principal
+int main(void){
+	//declaração das variaveis usadas
+	int n1,n2,i;
+	
+	//leitura dos tamanhos dos vetores e declaração dos vets
+	scanf("%d",n1);
+	scanf("%d",n2);		
+	int vet1[n1],vet2[n2],vet3[n1+n2];
+	
+	//leitura dos vetores
+	for(i=0,i<n1;i++){
+		scanf("%d",vet1[n1]);	
+	}
+	for(i=0,i<n2;i++){
+		scanf("%d",vet2[n2]);	
+	}
+	junta (int vet1, int n1, int vet2, int n2, int vet3).
+	printa(int vet3);
+}
+
+//declaração das funções secundarias
+int* junta (int *vet1, int n1, int *vet2, int n2, int *n3){
+	
+
+}
